@@ -1,0 +1,274 @@
+repo_name: 2lambda123/dspbr-pt
+report_id: cc683e62326f57b040c274064d5802cf
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:14:13+00:00'
+requested_by: 2lambda123
+provider: github
+branch: main
+detected_tools_count: 21
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/2lambda123/dspbr-pt
+  detection_source: Repo Metadata
+- name: GLSL
+  description: A high-level C-style language
+  website_url: https://www.khronos.org/opengl/wiki/Core_Language_(GLSL)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6548/default_a66025fbe8f221c489bdaac3a99d84e5f138cbbd.png
+  detection_source_url: https://github.com/2lambda123/dspbr-pt
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/dspbr-pt
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/dspbr-pt
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/2lambda123/dspbr-pt
+  detection_source: Repo Metadata
+- name: Electron
+  description: Build cross platform desktop apps with JavaScript, HTML, and CSS
+  website_url: http://electron.atom.io/
+  version: 8.5.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Desktop Development
+  image_url: https://img.stackshare.io/service/2946/default_18a71b65e69d7aef5f218ae07f64eb6e1594c444.jpg
+  detection_source_url: https://github.com/2lambda123/dspbr-pt/blob/main/yarn.lock
+  detection_source: packages/cli/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-04-30 08:19:16.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/dspbr-pt
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/dspbr-pt/blob/main/.github/workflows/publish_demo.yml
+  detection_source: ".github/workflows/publish_demo.yml"
+  last_updated_by: bsdorra
+  last_updated_on: 2022-04-30 08:49:30.000000000 Z
+- name: Parcel
+  description: "\U0001F4E6\U0001F680  A fast, zero configuration web application bundler"
+  website_url: https://parceljs.org/
+  version: 2.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/8054/fC6Wad-S_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/dspbr-pt/blob/main/yarn.lock
+  detection_source: packages/cli/package.json
+  last_updated_by: bsdorra
+  last_updated_on: 2022-04-29 17:58:32.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/2lambda123/dspbr-pt/blob/main/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: bsdorra
+  last_updated_on: 2022-04-29 17:58:32.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/dspbr-pt/blob/main/packages/viewer/package.json
+  detection_source: packages/viewer/package.json
+  last_updated_by: bsdorra
+  last_updated_on: 2022-04-29 17:58:32.000000000 Z
+- name: Buffer
+  description: The easiest way to schedule tweets, Facebook posts and more
+  website_url: https://bufferapp.com/
+  open_source: false
+  hosted_saas: true
+  category: Support, Sales, and Marketing
+  sub_category: Social Media Tools
+  image_url: https://img.stackshare.io/service/825/hnc3q-7x.jpg
+  detection_source_url: https://github.com/2lambda123/dspbr-pt/blob/main/packages/cli/package.json
+  detection_source: packages/cli/package.json
+  last_updated_by: bsdorra
+  last_updated_on: 2022-04-29 17:58:32.000000000 Z
+- name: three.js
+  description: A JavaScript 3D library
+  website_url: https://threejs.org/
+  version: 0.139.2
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Game Development
+  image_url: https://img.stackshare.io/service/5883/preview.png
+  detection_source_url: https://github.com/2lambda123/dspbr-pt/blob/main/yarn.lock
+  detection_source: packages/examples/package.json
+  last_updated_by: bsdorra
+  last_updated_on: 2022-04-29 17:58:32.000000000 Z
+- name: "@types/events"
+  description: TypeScript definitions for events
+  package_url: https://www.npmjs.com/@types/events
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18164/default_0bb0f4fd59640311a8af225b57652f46ca85cd80.png
+  detection_source_url: https://github.com/2lambda123/dspbr-pt/blob/main/yarn.lock
+  detection_source: packages/viewer/package.json
+  last_updated_by: bsdorra
+  last_updated_on: 2022-05-08 18:48:48.000000000 Z
+- name: argparse
+  description: Very powerful CLI arguments parser
+  package_url: https://www.npmjs.com/argparse
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17073/default_23002b02644a8cb313a0f53f43df271731022a9e.png
+  detection_source_url: https://github.com/2lambda123/dspbr-pt/blob/main/yarn.lock
+  detection_source: packages/cli/package.json
+  last_updated_by: bsdorra
+  last_updated_on: 2022-04-29 17:58:32.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/dspbr-pt/blob/main/yarn.lock
+  detection_source: packages/examples/package.json
+  last_updated_by: bsdorra
+  last_updated_on: 2022-05-08 18:48:48.000000000 Z
+- name: open
+  description: Open stuff like URLs, files, executables. Cross-platform
+  package_url: https://www.npmjs.com/open
+  version: 7.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16245/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source_url: https://github.com/2lambda123/dspbr-pt/blob/main/yarn.lock
+  detection_source: packages/cli/package.json
+  last_updated_by: bsdorra
+  last_updated_on: 2022-04-29 17:58:32.000000000 Z
+- name: regenerator-runtime
+  description: Runtime for Regenerator-compiled generator and async functions
+  package_url: https://www.npmjs.com/regenerator-runtime
+  version: 0.13.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16148/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: https://github.com/2lambda123/dspbr-pt/blob/main/yarn.lock
+  detection_source: packages/cli/package.json
+  last_updated_by: bsdorra
+  last_updated_on: 2022-04-29 17:58:32.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 2.7.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/2lambda123/dspbr-pt/blob/main/yarn.lock
+  detection_source: package.json
+  last_updated_by: bsdorra
+  last_updated_on: 2022-04-29 19:53:26.000000000 Z
+- name: shx
+  description: Portable Shell Commands for Node
+  package_url: https://www.npmjs.com/shx
+  version: 0.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16496/default_55f3303d620c93eecbee69c43373d484f2be492f.png
+  detection_source_url: https://github.com/2lambda123/dspbr-pt/blob/main/yarn.lock
+  detection_source: packages/examples/package.json
+  last_updated_by: bsdorra
+  last_updated_on: 2022-04-29 17:58:32.000000000 Z
+- name: three
+  description: JavaScript 3D library
+  package_url: https://www.npmjs.com/three
+  version: 0.139.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16653/default_cc0f40a737548852d2ee666c132c258c9a2c0cad.png
+  detection_source_url: https://github.com/2lambda123/dspbr-pt/blob/main/yarn.lock
+  detection_source: packages/examples/package.json
+  last_updated_by: bsdorra
+  last_updated_on: 2022-04-29 17:58:32.000000000 Z
